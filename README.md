@@ -1,2 +1,19 @@
-# blue-marathon-app
-Sample application used on Blue Marathon Event
+- TEXT DATA FLUX INBOUND
+-> CLIENT sends TEXT via socket
+    -> socket sends to processText
+        -> processText
+            -> watson translate (to english)
+                -> watson conversation (process within assistant, english)
+                    -> watson translate (to original language)
+                        -> send TEXT to client via socket
+
+- AUDIO DATA FLUX INBOUND
+-> CLIENT sends AUDIO via socket
+    -> socket sends to processAudio
+        -> processAudio
+            -> watson speech-to-text
+                -> watson translate (to english)
+                    -> watson conversation (process within assistant, english)
+                        -> watson translate (to original language)
+                            -> watson text-to-speech
+                                -> send AUDIO to client via socket

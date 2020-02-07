@@ -1,0 +1,13 @@
+{
+  "verbose": false,
+  "ignore": [
+    "docs/*",
+    "app/client",
+    "app/dist",
+    "node_modules/*"
+  ],
+  "watch": [
+    ".env",
+    "app/"
+  ]
+}

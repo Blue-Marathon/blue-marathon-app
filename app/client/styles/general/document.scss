@@ -1,0 +1,19 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.ibm-font {
+  font-family: 'IBM Plex Sans Condensed', 'Helvetica Neue', 'Arial', 'sans-serif' !important;
+}
+
+.wrapper {
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+}

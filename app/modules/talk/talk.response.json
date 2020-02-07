@@ -1,0 +1,25 @@
+{
+    "operation": {
+        "invalid": {
+            "status": 500,
+            "message": "Invalid Operation"
+        }
+    },
+    "talk": {
+        "success": {
+            "status": 200,
+            "message": "Data processed sucessfully"
+        },
+        "empty": {
+            "status": 204
+        },
+        "error": {
+            "status": 500,
+            "message": "Error processing data"
+        },
+        "invalid": {
+            "status": 400,
+            "message": "Error processing data: invalid parameters"
+        }
+    }
+}

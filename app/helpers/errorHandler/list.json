@@ -1,0 +1,18 @@
+[
+  {
+    "name": "SQL300081N",
+    "message": "Lost connection to the Database"
+  },
+  {
+    "name": "SQL0104N",
+    "message": "Invalid query"
+  },
+  {
+    "name": "SQL0803N",
+    "message": "Duplicated entry"
+  },
+  {
+    "name": "CLI0157E",
+    "message": "Error opening DB2 certificate file"
+  }
+]
