@@ -40,7 +40,7 @@
     "@cloudant/cloudant": "4.0.0",
     "ajv": "6.10.0",
     "ajv-cli": "3.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "body-parser": "1.18.3",
     "chalk": "2.4.1",
